@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DCFFBD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CC86D1, #DCFFBD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CC86D1, #DCFFBD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #20002c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 200vh;
+    background: linear-gradient(180deg, #4a6fa5, #6a8fc9);
+
+}
+
+html {
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0F2027;
+    background: #59C173;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: sticky;
+    top: 0px;
+    background: #EEAECA;
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(155, 186, 231, 1) 16%, rgba(155, 186, 231, 1) 38%, rgba(151, 187, 232, 1) 68%, rgba(148, 187, 233, 1) 100%);
+
+
+    color: black;
+    padding: 0.6rem 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: cenetr;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+.notification {
+    position: relative;
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 0.8rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.container.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginCart {
+    padding: 40px 35px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    width: 380px;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 22px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.passwordField {
+    position: relative;
+}
+
+
+.toggleIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    color: black;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.toggleIcon:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loginBtn {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: chocolate;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.loginBtn:hover {
+    background-color: crimson;
+}
+
+.forgotPass,
+.signupText {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+
+}
+
+.forgotPass a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signupLink {
+    color: gold;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* 
+
+var:can re-declare and re-assign,function scope
+let:cant redeclare.block scope.
+TDZ
+*/
