@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(lightblue,lightpink, lavender);
+}
+
+/* Main page */
+
+.app {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+
+/* Counter Card */
+
+.counter-card {
+  width: 420px;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  padding: 40px;
+
+  border-radius: 25px;
+
+  text-align: center;
+
+  box-shadow:
+    0 20px 50px rgba(79, 70, 229, 0.15);
+
+  backdrop-filter: blur(10px);
+}
+
+/* Heading */
+
+.counter-card h1 {
+  font-size: 38px;
+
+  color: #1e1b4b;
+
+  margin-bottom: 8px;
+}
+
+.counter-subtitle {
+  color: #64748b;
+
+  font-size: 15px;
+
+  margin-bottom: 30px;
+}
+
+/* Number */
+
+.count-display {
+  width: 170px;
+  height: 170px;
+
+  margin: 0 auto 35px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg,
+      hsl(341, 84%, 67%),
+      #7d5cf681);
+
+  color: white;
+
+  font-size: 65px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    0 15px 30px rgba(99, 102, 241, 0.3);
+
+  transition: transform 0.2s ease;
+}
+
+/* Number hover */
+
+.count-display:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+
+.buttons {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+}
+
+/* Common button */
+
+.buttons button {
+  padding: 13px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  color: white;
+
+  font-size: 15px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+
+.buttons button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Click */
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+/* Individual buttons */
+
+.increment {
+  background: #22c55e;
+}
+
+.decrement {
+  background: #ef4444;
+}
+
+.reset {
+  background: #6366f1;
+
+  grid-column: span 2;
+}
+
+.increase-five {
+  background: #0ea5e9;
+}
+
+.decrease-five {
+  background: #f97316;
+}
